@@ -7,9 +7,9 @@ import Header from './src/components/header';
 import AlbumList from './src/components/AlbumList';
 // Create a component (a component is a JS function that returns some amount of JSX)
 const App = () => (
-  
-    <View>
-        <Header headerText={'Albums!'} />
+
+    <View style={{ flex: 1 }}>
+        <Header headerText={'Albums'} />
         <AlbumList />
     </View>
   );
